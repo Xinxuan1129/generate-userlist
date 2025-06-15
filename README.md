@@ -1,4 +1,9 @@
 # Common Username Generator
+![GitHub Created At](https://img.shields.io/github/created-at/lowcache/generate-userlist)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/lowcache/generate-userlist/.github%2Fworkflows%2Fmain.yml)
+![GitHub branch check runs](https://img.shields.io/github/check-runs/lowcache/generate-userlist/main)
+![GitHub last commit](https://img.shields.io/github/last-commit/lowcache/generate-userlist)
+
 This project contains a web-based application that generates lists of statistically common usernames based on patterns observed in public data and security research. Users can generate lists of varying sizes and export them in different formats.
 
 ##### This repository provides two ways to use the generator:
@@ -49,9 +54,10 @@ You can find the generated lists in the "Actions" tab of this repository. After 
 ## How It Works
 The generation logic is contained within the <script> tag in the index.html file. It uses several arrays of common names, words, and adjectives as data sources. When the "Generate" button is clicked, it randomly combines these elements based on weighted probabilities to create a list of unique usernames.
 
+---
 
 
-# Digital Cardboard Sign
-> Will Code for Crypto
+### Digital Cardboard Sign
+![Static Badge](https://img.shields.io/badge/will_code_for_crypto-AF996E)
+![Static Badge](https://img.shields.io/badge/Bitcoin-33BL76CFqZsB7Zf5BEMfiz9inGDSMBaXC4-FFE415)
 
-Bitcoin: 33BL76CFqZsB7Zf5BEMfiz9inGDSMBaXC4
