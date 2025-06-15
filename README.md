@@ -14,7 +14,7 @@ This project contains a web-based application that generates lists of statistica
 ## Live Application (GitHub Pages Website)
 You can access the live version of the username generator, hosted directly from this repository using GitHub Pages.
 
-<a href=https://lowcache.github.io%2Fgenerate-userlist/>**![Static Badge](https://img.shields.io/badge/Click_Here_to_View_Webpage!-gray?link=)**</a>
+**[Click Here to View Webpage](https://lowcache.github.io%2Fgenerate-userlist/)**
 
 
 
