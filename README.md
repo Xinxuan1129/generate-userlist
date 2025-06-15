@@ -49,6 +49,9 @@ You can find the generated lists in the "Actions" tab of this repository. After 
 ## How It Works
 The generation logic is contained within the <script> tag in the index.html file. It uses several arrays of common names, words, and adjectives as data sources. When the "Generate" button is clicked, it randomly combines these elements based on weighted probabilities to create a list of unique usernames.
 
-#### Digital Cardboard Sign
-Will Code for Crypto
+
+
+# Digital Cardboard Sign
+> Will Code for Crypto
+
 Bitcoin: 33BL76CFqZsB7Zf5BEMfiz9inGDSMBaXC4
