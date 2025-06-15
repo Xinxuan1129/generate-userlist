@@ -11,10 +11,10 @@ This project contains a web-based application that generates lists of statistica
 * A live web application hosted via GitHub Pages.
 * A GitHub Action that automatically generates the username lists and saves them as downloadable artifacts.
 
-## Live Application (GitHub Pages Website)
+## Live Application [GitHub Pages Website](https://lowcache.github.io/generate-userlist/)
 You can access the live version of the username generator, hosted directly from this repository using GitHub Pages.
 
-**[Click Here to View Webpage](https://lowcache.github.io%2Fgenerate-userlist/)**
+**https://lowcache.github.io/generate-userlist/**
 
 
 
